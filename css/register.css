@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&display=swap');
+
+
+.form {
+  background-color: rgb(232, 226, 226);
+  height: 700px;
+  width: 600px;
+  border-radius: 0px;
+  padding: 20px 40px;
+  box-shadow: 0 -10px 25px rgba(0, 0, 0, 0.2);
+}
+.title {
+  font-size: 50px;
+  margin-bottom: 20px;
+  text-align: center;
+  color:green;
+  font-family: 'Mukta',sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(90deg,#654ea3,#eaafc8);  font-family: "lato", sans-serif;
+}
+
+.signupFrm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+}
+
+.inputContainer {
+  bottom: -20px;
+  position: relative;
+  height: 45px;
+  width: 100%;
+  right: 10px;
+  margin-bottom: 45px;
+  font-weight: bold;
+}
+
+.input {
+  height: 100%;
+  width: 100%;
+  border: 1px solid grey;
+  border-radius: 7px;
+  font-size: 16px;
+  font-family: 'Mukta',sans-serif;
+  padding: 0 -10px;
+  outline: none;
+  background: white;
+  z-index: 1;
+  margin-top: 10px;
+}
+
+.input:focus {
+  top: -7px;
+  left: 3px;
+  z-index: 10;
+  font-size: 14px;
+  font-weight: 600;
+  border: 2px sol;
+}
+
+
+.submitBtn {
+  display: block;
+  margin: 100px;
+  margin-left: 150px;
+  margin-top: 150px;
+  padding: 20px;
+  border: none;
+  background-color: rgb(23, 227, 227);
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 80px;
+  font-weight: bold;
+}
+.submitBtn:hover {
+  background-color:skyblue;
+  transform: translateY(-2px);
+}
+
+.para-1 {
+  font-weight: 550;
+  font-family: "lato", sans-serif;
+}
+
+.para-2 {
+  color:grey;
+  font-size: 15px;
+  margin-top: -93px;
+  text-align: center;
+  font-weight: bold;
+}
+label{
+  font-family: 'Mukta',sans-serif;;
+}
